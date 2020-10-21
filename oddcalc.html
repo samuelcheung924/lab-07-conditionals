@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var num1 = prompt("Enter first number ");
+      var num2 = prompt("Enter second number ");
+      var operator = prompt("What operator will you choose?");
+      if (operator ==='mul') {
+       document.write("The result of " + num1 + " mul " + num2 + " is = " + num1*num2);
+      }
+      else if (operator ==='div') {
+       document.write("The result of " + num1 + " div " + num2 + " is = " + num1/num2);
+      } else if (operator ==='mod') {
+        document.write("The result of " + num1 + " mod " + num2 + " is = " + num1%num2);
+      } else {
+      document.write("invalid operation");
+      }
+
+    </script>
+  </body>
+</html>
